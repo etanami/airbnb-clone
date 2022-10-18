@@ -29,32 +29,28 @@ section {
 .hero {
   display: flex;
   flex-direction: column;
-}
-
-.hero--img {
-  max-width: 400px;
-  align-self: center;
+  align-items: center;
 }
 
 .hero--title {
-  margin-bottom: 16px;
+  font-size: 2rem;
+  margin: 5rem 0 1rem 0;
 }
 
 .hero--text {
+  font-size: 1.25rem;
   margin-top: 0;
-  max-width: 320px;
 }
 
 .cards-list {
   display: flex;
-  flex-wrap: nowrap;
-  gap: 20px;
+  justify-content: center;
+  gap: 30px;
   overflow-x: auto;
 }
 
 .card {
-  width: 175px;
-  font-size: 12px;
+  font-size: 14px;
   flex: 0 0 auto;
   display: flex;
   flex-direction: column;
@@ -62,10 +58,10 @@ section {
 }
 
 .card--image {
-  width: 100%;
-  height: 15rem;
-  border-radius: 9px;
-  margin-bottom: 9px;
+  width: 260px;
+  height: 352px;
+  border-radius: 16px;
+  margin-bottom: 16px;
 }
 
 .card--title {
